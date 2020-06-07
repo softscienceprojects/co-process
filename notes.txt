@@ -1,0 +1,24 @@
+# DB Schema
+
+Users
+Movements
+Chapters
+
+
+## Relationships
+
+Movements have many Chapters
+Chapters have one Movement
+
+Chapters have many Members
+ - through ChapterMembers
+Members have many Chapters
+
+
+
+## Tables
+
+Chapters
+ - id
+ - location (,,)
+ - _members
